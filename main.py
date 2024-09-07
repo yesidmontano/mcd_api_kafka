@@ -105,3 +105,4 @@ async def produce_transaction():
         return {"status": "Mensaje enviado a Kafka", "transaction": transaction}
     except Exception as e:
         return {"error": str(e)}
+    
